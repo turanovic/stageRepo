@@ -36,7 +36,7 @@
                 <h3>Wat is je leeftijd?</h3>
                 <select>
                     <?php
-                        for($i = 16; $i = < 100; $i++){
+                        for($i = 16; $i < 100; $i++){
                             echo'<option value="' . $i . '">' . $i . '</option>';
                         }
                     ?>
