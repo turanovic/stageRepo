@@ -1,0 +1,31 @@
+body {
+	background-image: url("http://cdn.pcwallart.com/images/san-francisco-wallpaper-3.jpg");
+}
+
+.container {
+	margin-top:40px;
+  margin-bottom:150px;
+}
+
+h1 {
+	text-align:center;
+}
+
+label {
+	font-weight:normal;
+}
+
+.form-control {
+	width:30%;
+}
+
+.mainForm {
+	border:1px solid #EEEEEE;
+	border-radius:10px;
+	padding:20px;
+	background-color:white;
+}
+
+.form-actions {
+	text-align:center;
+}
