@@ -117,8 +117,7 @@
 
                 <br />
                 <div class="form-actions">
-
-
+                    <a href="./questionlist.php"><button type="button"></button></a>
                 </div>
 
             </form>
