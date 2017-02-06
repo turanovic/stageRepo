@@ -98,7 +98,21 @@
                 <br />
                 <!-- question 5 using dropdownlist -->
                 <h3>Wat is je nationaliteit?</h3>
-
+                <select>
+                    <option value="Nederlands">Nederlands</option>
+                    <option value="Pools">Pools</option>
+                    <option value="Turkse">Turkse</option>
+                    <option value="Duits">Duits</option>
+                    <option value="Brits">Brits</option>
+                    <option value="Marokkaans">Marokkaans</option>
+                    <option value="Belgisch">Belgisch</option>
+                    <option value="Chinees">Chinees</option>
+                    <option value="Italiaans">Italiaans</option>
+                    <option value="Spaans">Spaans</option>
+                    <option value="Syrisch">Syrisch</option>
+                    <option value="Anders">Anders...</option>
+                </select>
+  
                 <br />
 
                 <br />
