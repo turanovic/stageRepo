@@ -117,7 +117,7 @@
 
                 <br />
                 <div class="form-actions">
-                    <a href="./questionlist.php"><button type="button"></button></a>
+                    <a href="./questionlist.php"><button type="button">Gegevens opslaan en doorgaan naar de vragen</button></a>
                 </div>
 
             </form>
