@@ -140,6 +140,8 @@
 
                 </select>
   
+                <br />
+                <br />
                 <h2>Verkiezingsachtergrond informatie</h2>
                 <br />
                 <h3>Op welke van de volgende partijen zou je stemmen op 15 maart?</h3>
@@ -153,14 +155,15 @@
                     <option value="VVD">VVD</option>
                     <option value="SP">SP</option>
                 </select>
+                <br />
 
-                Op welke social media kanalen, magazines en tv programma's volg je het nieuws (over de verkiezingen)? Je kunt meerdere antwoorden selecteren.
+                <h3>Op welke social media kanalen, magazines en tv programma's volg je het nieuws (over de verkiezingen)? Je kunt meerdere antwoorden selecteren.</h3>
                 <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Geen">Geen<br>
-                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Facebook" checked>Facebook<br>
-                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Twitter" checked>Twitter<br>
-                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Instagram" checked>Instagram<br>
-                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="LinkedIn" checked>LinkedIn<br>
-                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Reddit" checked>Reddit<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Facebook">Facebook<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Twitter">Twitter<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Instagram">Instagram<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="LinkedIn">LinkedIn<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Reddit">Reddit<br>
 
                 <input type="checkbox" name="nieuwsvolgen_newspapers" value="De Telegraaf">De Telegraaf<br>
                 <input type="checkbox" name="nieuwsvolgen_newspapers" value="Metro">Metro<br>
