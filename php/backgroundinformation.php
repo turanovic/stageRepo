@@ -28,11 +28,10 @@
 
      <div class="container">
         <div class="col-md-4 col-md-offset-4 mainForm">
-            
+
             <form id="form" class="form-horizontal">
-                
+                <h2>Achtergrond informatie</h2>
                 <br />
-                <!-- question 1 using dropdownlist -->
                 <h3>Wat is je leeftijd?</h3>
                 <select>
 
@@ -42,11 +41,10 @@
                             echo'<option value="' . $i . '">' . $i . '</option>';
                         }
                     ?>
-
                 </select>
                 
+
                 <br />
-                <!-- question 2 using dropdownlist -->
                 <h3>Wat is je geslacht?</h3>
                 <select>
                     <option value="Vrouw">Vrouw</option>
@@ -55,30 +53,33 @@
 
 
                 <br />
-                <!-- question 3 using select and options -->
-                <h3>Welke opleiding volg je?</h3>
+                <h3>Wat is de grootte van je huishouden?</h3>
                 <select>
-                    <option value="Geen">Geen</option>
-                    <option value="Administratief / Secretarieel">Administratief / Secretarieel</option>
-                    <option value="Design / AV-produktie / Theater">Design / AV-produktie / Theater</option>
-                    <option value="Bouw / Hout / Afwerkingstechniek">Bouw / Hout / Afwerkingstechniek</option>
-                    <option value="Elektro- / Installatie- / Proces- / Koudetechniek / Metaal">Elektro- / Installatie- / Proces- / Koudetechniek / Metaal</option>
-                    <option value="Economie">Economie</option>
-                    <option value="Handel/Verkoop">Handel/Verkoop</option>
-                    <option value="Entree Breed">Entree Breed</option>
-                    <option value="Horeca / Toerisme">Horeca / Toerisme</option>
-                    <option value="ICT">ICT</option>
-                    <option value="Juridisch">Juridisch</option>
-                    <option value="Sport">Sport</option>
-                    <option value="Techniek">Techniek</option>
-                    <option value="Veiligheid / Veiligheid & Techniek / Handhaving">Veiligheid / Veiligheid & Techniek / Handhaving</option>
-                    <option value="Voertuigen / Transport en Logistiek">Voertuigen / Transport en Logistiek</option>
-                    <option value="VAVO">VAVO</option>
-                    <option value="Zorg & Welzijn">Zorg & Welzijn</option>
+                    <option value="1 persoon">1 persoon</option>
+                    <option value="2 personen">2 personen</option>
+                    <option value="3 personen">3 personen</option>
+                    <option value="4 personen">4 personen</option>
+                    <option value="5 personen">5 personen</option>
+                    <option value="6 personen">6 personen</option>
                 </select>
 
+
                 <br />
-                <!-- question 4 using dropdownlist -->
+                <h3>Wat is je hoogst behaalde opleiding?</h3>
+                <select>
+                    <option value="Geen onderwijs">Geen onderwijs</option>
+                    <option value="Basisonderwijs">Basisonderwijs</option>
+                    <option value="LBO \ VBO \ VMBO (kader- en beroepsgerichte leerweg)">2:LBO \ VBO \ VMBO (kader- en beroepsgerichte leerweg)</option>
+                    <option value="MAVO \ eerste 3 jaar HAVO en VWO \ VMBO (theoretische en gemengde leerweg)">MAVO \ eerste 3 jaar HAVO en VWO \ VMBO (theoretische en gemengde leerweg)</option>
+                    <option value="MBO">MBO</option>l</option>
+                    <option value="HAVO en VWO bovenbouw \ WO en HBO propedeuse">HAVO en VWO bovenbouw \ WO en HBO propedeuse</option>
+                    <option value="HBO \ WO-bachelor of kandidaats">HBO \ WO-bachelor of kandidaats</option>
+                    <option value="WO-doctoraal of master">WO-doctoraal of master</option>
+                    <option value="Weet niet \ wil niet zeggen">Weet niet \ wil niet zeggen</option>
+                </select>
+
+
+                <br />
                 <h3>In welke provincie woon je?</h3>
                 <select>
                      <option value="Noord-Brabant">Noord-Brabant</option>
@@ -95,26 +96,112 @@
                      <option value="Friesland">Friesland</option>
                 </select>
   
+
                 <br />
-                <!-- question 5 using dropdownlist -->
-                <h3>Wat is je nationaliteit?</h3>
+                <h3>Wat is je huidige werksituatie?</h3>
                 <select>
-                    <option value="Nederlands">Nederlands</option>
-                    <option value="Pools">Pools</option>
-                    <option value="Turkse">Turkse</option>
-                    <option value="Duits">Duits</option>
-                    <option value="Brits">Brits</option>
-                    <option value="Marokkaans">Marokkaans</option>
-                    <option value="Belgisch">Belgisch</option>
-                    <option value="Chinees">Chinees</option>
-                    <option value="Italiaans">Italiaans</option>
-                    <option value="Spaans">Spaans</option>
-                    <option value="Syrisch">Syrisch</option>
-                    <option value="Anders">Anders...</option>
+                    <option value="Zelfstandig ondernemer">Zelfstandig ondernemer</option>
+                    <option value="Werkzaam in loondienst">Werkzaam in loondienst</option>
+                    <option value="Werkzaam bij de overheid">Werkzaam bij de overheid</option>
+                    <option value="Arbeidsongeschikt">Arbeidsongeschikt</option>
+                    <option value="Werkloos \ werk-zoekend \ bijstand">Werkloos \ werk-zoekend \ bijstand</option>
+                    <option value="Gepensioneerd of VUT">Gepensioneerd of VUT</option>
+                    <option value="Studerend \ schoolgaand">Studerend \ schoolgaand</option>
+                    <option value="Huisvrouw \ huisman \ anders">Huisvrouw \ huisman \ anders</option>
+                    <option value="weet niet\wil niet zeggen">weet niet\wil niet zeggen</option>
+                </select>
+
+
+                <br />
+                <h3>Wat is je huidige werksituatie?</h3>
+                <select>
+                    <option value="Zelfstandig ondernemer">Zelfstandig ondernemer</option>
+                    <option value="Werkzaam in loondienst">Werkzaam in loondienst</option>
+                    <option value="Werkzaam bij de overheid">Werkzaam bij de overheid</option>
+                    <option value="Arbeidsongeschikt">Arbeidsongeschikt</option>
+                    <option value="Werkloos \ werk-zoekend \ bijstand">Werkloos \ werk-zoekend \ bijstand</option>
+                    <option value="Gepensioneerd of VUT">Gepensioneerd of VUT</option>
+                    <option value="Studerend \ schoolgaand">Studerend \ schoolgaand</option>
+                    <option value="Huisvrouw \ huisman \ anders">Huisvrouw \ huisman \ anders</option>
+                    <option value="weet niet\wil niet zeggen">weet niet\wil niet zeggen</option>
+                </select>
+
+
+                <br />
+                <h3>Wat is je huidige werksituatie?</h3>
+                <select>
+                    <option value="Minimum (<12.500 Euro)">Minimum (< 12.500 Euro)</option>
+                    <option value="Beneden modaal (12.500 - < 26.200)">Beneden modaal (12.500 - < 26.200)</option>
+                    <option value="Modaal (26.200 - < 38.800), inclusief negatief inkomen">Modaal (26.200 - < 38.800), inclusief negatief inkomen</option>
+                    <option value="1-2x Modaal (38.800 - < 65.000)">1-2x Modaal (38.800 - < 65.000)</option>
+                    <option value="2x Modaal (65.000 - < 77.500)">2x Modaal (65.000 - < 77.500)</option>
+                    <option value="Meer dan 2x modaal (>= 77.500)T">Meer dan 2x modaal (>= 77.500)</option>
+                    <option value="Weet echt niet \ wil echt niet zeggen">Weet echt niet \ wil echt niet zeggen</option>
+
                 </select>
   
+                <h2>Verkiezingsachtergrond informatie</h2>
                 <br />
+                <h3>Op welke van de volgende partijen zou je stemmen op 15 maart?</h3>
+                <select>
+                    <option value="50 Plus">50 Plus</option>
+                    <option value="CDA">CDA</option>
+                    <option value="D66">D66</option>
+                    <option value="GroenLinks">GroenLinks</option>
+                    <option value="PvdA">PvdA</option>
+                    <option value="PVV">PVV</option>
+                    <option value="VVD">VVD</option>
+                    <option value="SP">SP</option>
+                </select>
 
+                Op welke social media kanalen, magazines en tv programma's volg je het nieuws (over de verkiezingen)? Je kunt meerdere antwoorden selecteren.
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Geen">Geen<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Facebook" checked>Facebook<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Twitter" checked>Twitter<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Instagram" checked>Instagram<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="LinkedIn" checked>LinkedIn<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Reddit" checked>Reddit<br>
+
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="De Telegraaf">De Telegraaf<br>
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="Metro">Metro<br>
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="Algemeen Dagblad">Algemeen Dagblad<br>
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="De Volkskrant">De Volkskrant<br>
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="NRC Handelsblad">NRC Handelsblad<br>
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="Trouw">Trouw<br>
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="NRC Next">NRC Next<br>
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="Financieel Dagblad">Financieel Dagblad<br>
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="Reformatorisch Dagblad">Reformatorisch Dagblad<br>
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="De Gelderlander">De Gelderlander<br>
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="Dagblad van het Noorden">Dagblad van het Noorden<br>
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="Noordhollands Dagblad">Noordhollands Dagblad<br>
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="De Stentor">De Stentor<br>
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="Dagblad de Limburger">Dagblad de Limburger<br>
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="Brabants Dagblad">Brabants Dagblad<br>
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="De Twentsche Courant">De Twentsche Courant<br>
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="BN/De Stem">BN/De Stem<br>
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="Eindhovens Dagblad">Eindhovens Dagblad<br>
+                <input type="checkbox" name="nieuwsvolgen_newspapers" value="Leeuwarder Courant">Leeuwarder Courant<br>
+
+                <input type="checkbox" name="nieuwsvolgen_tvshows" value="NOS Journaal">NOS Journaal<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Wereld Draait Door">Wereld Draait Door<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="EenVandaag">EenVandaag<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Hart van Nederland">Hart van Nederland<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="RTL Boulevard">RTL Boulevard<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="RTL Nieuws">RTL Nieuws<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="RTL Late Night">RTL Late Night<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Zondag met Lubach">Zondag met Lubach<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Editie NL">Editie NL<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Shownieuws">Shownieuws<br>
+                <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Nieuwsuur">Nieuwsuur<br>
+
+
+
+
+
+
+
+
+                <br />
                 <br />
                 <div class="form-actions">
                     <a href="./questionlist.php"><button type="button">Gegevens opslaan en doorgaan naar de vragen</button></a>
