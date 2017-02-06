@@ -80,7 +80,20 @@
                 <br />
                 <!-- question 4 using dropdownlist -->
                 <h3>In welke provincie woon je?</h3>
-
+                <select>
+                     <option value="Noord-Brabant">Noord-Brabant</option>
+                     <option value="Gelderland">Gelderland</option>
+                     <option value="Limburg">Limburg</option>
+                     <option value="Utrecht">Utrecht</option>
+                     <option value="Zuid-holland">Zuid-holland</option>
+                     <option value="Noord-Holland">Noord-Holland</option>
+                     <option value="Zeeland">Zeeland</option>
+                     <option value="Flevoland">Flevoland</option>
+                     <option value="Overijssel">Overijssel</option>
+                     <option value="Drenthe">Drenthe</option>
+                     <option value="Groningen">Groningen</option>
+                     <option value="Friesland">Friesland</option>
+                </select>
   
                 <br />
                 <!-- question 5 using dropdownlist -->
