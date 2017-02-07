@@ -32,8 +32,9 @@
             <form id="form" class="form-horizontal">
                 <!-- title -->
                 <h2>Achtergrond informatie</h2>
-                <br />
 
+                <br />
+                <br/>
                 <!-- question 1 -->
                 <h3>1. Wat is je leeftijd?</h3>
                 <select>
@@ -46,7 +47,7 @@
                     ?>
                 </select>
                 
-
+                <br/>
                 <br />
                 <!-- question 2 -->
                 <h3>2. Wat is je geslacht?</h3>
@@ -55,7 +56,7 @@
                     <option value="Man">Man</option>
                 </select>
 
-
+                <br/>
                 <br />
                 <!-- question 3 -->
                 <h3>3. Wat is de grootte van je huishouden?</h3>
@@ -68,7 +69,7 @@
                     <option value="6 personen">6 personen</option>
                 </select>
 
-
+                <br/>
                 <br />
                 <!-- question 4 -->
                 <h3>4. Wat is je hoogst behaalde opleiding?</h3>
@@ -84,7 +85,7 @@
                     <option value="Weet niet \ wil niet zeggen">Weet niet \ wil niet zeggen</option>
                 </select>
 
-
+                <br/>
                 <br />
                 <!-- question 5 -->
                 <h3>5. In welke provincie woon je?</h3>
@@ -103,7 +104,7 @@
                      <option value="Friesland">Friesland</option>
                 </select>
   
-
+                <br/>
                 <br />
                 <!-- question 6 -->
                 <h3>6. Wat is je huidige werksituatie?</h3>
@@ -119,7 +120,7 @@
                     <option value="weet niet\wil niet zeggen">weet niet\wil niet zeggen</option>
                 </select>
 
-
+                <br/>
                 <br />
                 <!-- question 7 -->
                 <h3>7. Wat is je huidige werksituatie?</h3>
@@ -135,7 +136,7 @@
                     <option value="weet niet\wil niet zeggen">weet niet\wil niet zeggen</option>
                 </select>
 
-
+                <br/>
                 <br />
                 <!-- question 8 -->
                 <h3>8. Wat is je huidige werksituatie?</h3>
@@ -167,8 +168,9 @@
                     <option value="VVD">VVD</option>
                     <option value="SP">SP</option>
                 </select>
-                <br />
 
+                <br/>
+                <br />
                 <!-- question 10 -->
                 <h3>10. Op welke social media kanalen, magazines en tv programma's volg je het nieuws (over de verkiezingen)? Je kunt meerdere antwoorden selecteren.</h3>
                 <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Geen">Geen<br>
@@ -209,11 +211,6 @@
                 <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Editie NL">Editie NL<br>
                 <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Shownieuws">Shownieuws<br>
                 <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Nieuwsuur">Nieuwsuur<br>
-
-
-
-
-
 
 
 

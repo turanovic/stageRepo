@@ -59,6 +59,7 @@
                 </textarea>
 
                 <!-- article 2 -->
+                <br/>
                 <br />
                 <h3>Artikel 2:</h3>
                 <p>
@@ -81,6 +82,7 @@
                 </textarea>
 
                 <!-- article 3 -->
+                <br/>
                 <br />
                 <h3>Artikel 3:</h3>
                 <p>
