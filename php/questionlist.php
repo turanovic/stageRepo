@@ -30,7 +30,9 @@
         <div class="col-md-4 col-md-offset-4 mainForm">
             
             <form id="form" class="form-horizontal">
+                <!-- title -->
                 <h2>Wekelijkse vragen</h2>
+                <!-- information -->
                 <p>
                     Welk nieuwsbericht / uitspraak / toespraak (speech) van kanditaten/partijen pakte jouw aandacht afgelopen week? Geef a.u.b. minimaal één artikel of nieuwsbericht op. Je kunt er maximaal drie invoeren. Je kunt het artikel/nieuwsbericht kopiëren/plakken of zelf schrijven in de boxen hieronder.
                 </p>
@@ -40,7 +42,8 @@
                 <p>
                     Bron van artikel:
                 </p>
-                <form action="">
+                <!-- action: unknown for now // method=post (data invisible for others) -->
+                <form action="" method="post">
                   <input type="radio" name="source" value="TV kanaal">TV kanaal<br>
                   <input type="radio" name="source" value="Social media">Social media<br>
                   <input type="radio" name="source" value="(Online) krant">(Online) krant<br>
@@ -61,7 +64,8 @@
                 <p>
                     Bron van artikel:
                 </p>
-                <form action="">
+                <!-- action: unknown for now // method=post (data invisible for others) -->
+                <form action="" method="post">
                   <input type="radio" name="source" value="TV kanaal">TV kanaal<br>
                   <input type="radio" name="source" value="Social media">Social media<br>
                   <input type="radio" name="source" value="(Online) krant">(Online) krant<br>
@@ -82,7 +86,8 @@
                 <p>
                     Bron van artikel:
                 </p>
-                <form action="">
+                <!-- action: unknown for now // method=post (data invisible for others) -->
+                <form action="" method="post">
                   <input type="radio" name="source" value="TV kanaal">TV kanaal<br>
                   <input type="radio" name="source" value="Social media">Social media<br>
                   <input type="radio" name="source" value="(Online) krant">(Online) krant<br>

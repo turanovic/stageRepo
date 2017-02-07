@@ -30,9 +30,12 @@
         <div class="col-md-4 col-md-offset-4 mainForm">
 
             <form id="form" class="form-horizontal">
+                <!-- title -->
                 <h2>Achtergrond informatie</h2>
                 <br />
-                <h3>Wat is je leeftijd?</h3>
+
+                <!-- question 1 -->
+                <h3>1. Wat is je leeftijd?</h3>
                 <select>
 
                     <!-- php for loop for inserting ages in dropdownlist -->
@@ -45,7 +48,8 @@
                 
 
                 <br />
-                <h3>Wat is je geslacht?</h3>
+                <!-- question 2 -->
+                <h3>2. Wat is je geslacht?</h3>
                 <select>
                     <option value="Vrouw">Vrouw</option>
                     <option value="Man">Man</option>
@@ -53,7 +57,8 @@
 
 
                 <br />
-                <h3>Wat is de grootte van je huishouden?</h3>
+                <!-- question 3 -->
+                <h3>3. Wat is de grootte van je huishouden?</h3>
                 <select>
                     <option value="1 persoon">1 persoon</option>
                     <option value="2 personen">2 personen</option>
@@ -65,7 +70,8 @@
 
 
                 <br />
-                <h3>Wat is je hoogst behaalde opleiding?</h3>
+                <!-- question 4 -->
+                <h3>4. Wat is je hoogst behaalde opleiding?</h3>
                 <select>
                     <option value="Geen onderwijs">Geen onderwijs</option>
                     <option value="Basisonderwijs">Basisonderwijs</option>
@@ -80,7 +86,8 @@
 
 
                 <br />
-                <h3>In welke provincie woon je?</h3>
+                <!-- question 5 -->
+                <h3>5. In welke provincie woon je?</h3>
                 <select>
                      <option value="Noord-Brabant">Noord-Brabant</option>
                      <option value="Gelderland">Gelderland</option>
@@ -98,7 +105,8 @@
   
 
                 <br />
-                <h3>Wat is je huidige werksituatie?</h3>
+                <!-- question 6 -->
+                <h3>6. Wat is je huidige werksituatie?</h3>
                 <select>
                     <option value="Zelfstandig ondernemer">Zelfstandig ondernemer</option>
                     <option value="Werkzaam in loondienst">Werkzaam in loondienst</option>
@@ -113,7 +121,8 @@
 
 
                 <br />
-                <h3>Wat is je huidige werksituatie?</h3>
+                <!-- question 7 -->
+                <h3>7. Wat is je huidige werksituatie?</h3>
                 <select>
                     <option value="Zelfstandig ondernemer">Zelfstandig ondernemer</option>
                     <option value="Werkzaam in loondienst">Werkzaam in loondienst</option>
@@ -128,7 +137,8 @@
 
 
                 <br />
-                <h3>Wat is je huidige werksituatie?</h3>
+                <!-- question 8 -->
+                <h3>8. Wat is je huidige werksituatie?</h3>
                 <select>
                     <option value="Minimum (<12.500 Euro)">Minimum (< 12.500 Euro)</option>
                     <option value="Beneden modaal (12.500 - < 26.200)">Beneden modaal (12.500 - < 26.200)</option>
@@ -142,9 +152,11 @@
   
                 <br />
                 <br />
+                <!-- title -->
                 <h2>Verkiezingsachtergrond informatie</h2>
                 <br />
-                <h3>Op welke van de volgende partijen zou je stemmen op 15 maart?</h3>
+                <!-- question 9 -->
+                <h3>9. Op welke van de volgende partijen zou je stemmen op 15 maart?</h3>
                 <select>
                     <option value="50 Plus">50 Plus</option>
                     <option value="CDA">CDA</option>
@@ -157,7 +169,8 @@
                 </select>
                 <br />
 
-                <h3>Op welke social media kanalen, magazines en tv programma's volg je het nieuws (over de verkiezingen)? Je kunt meerdere antwoorden selecteren.</h3>
+                <!-- question 10 -->
+                <h3>10. Op welke social media kanalen, magazines en tv programma's volg je het nieuws (over de verkiezingen)? Je kunt meerdere antwoorden selecteren.</h3>
                 <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Geen">Geen<br>
                 <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Facebook">Facebook<br>
                 <input type="checkbox" name="nieuwsvolgen_socialmedia" value="Twitter">Twitter<br>
