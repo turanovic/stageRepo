@@ -1,3 +1,14 @@
+<?php
+    
+    // get selected leeftijd from question 1
+   // $selectLeeftijd = $_POST['leeftijd'];
+
+    // test
+    //echo "<script type='text/javascript'>alert('$selectLeeftijd');</script>";
+    
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -29,7 +40,7 @@
      <div class="container">
         <div class="col-md-4 col-md-offset-4 mainForm">
 
-            <form id="form" class="form-horizontal">
+            <form id="form" class="form-horizontal" action="backgroundinformation.php" method="post">
                 <!-- title -->
                 <h2>Achtergrond informatie</h2>
 
@@ -37,7 +48,7 @@
                 <br/>
                 <!-- question 1 -->
                 <h3>1. Wat is je leeftijd?</h3>
-                <select>
+                <select name="leeftijd">
 
                     <!-- php for loop for inserting ages in dropdownlist -->
                     <?php
@@ -217,7 +228,14 @@
                 <br />
                 <br />
                 <div class="form-actions">
-                    <a href="./questionlist.php"><button type="button">Gegevens opslaan en doorgaan naar de vragen</button></a>
+                    <a href="./questionlist.php">
+                    <button type="button" onclick="alertLeeftijd()"></button>
+                    
+                    </a>
+
+                    <!-- TEST
+                    <input type="submit" value="Gegevens opslaan en doorgaan naar de vragen" onclick="insert()" />
+                    -->
                 </div>
 
             </form>
