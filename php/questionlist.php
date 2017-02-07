@@ -30,24 +30,85 @@
         <div class="col-md-4 col-md-offset-4 mainForm">
             
             <form id="form" class="form-horizontal">
-                
-                <!-- question 6 using checkboxes -->
-                <h3>Welke social media gebruik je (om het nieuws te volgen)?</h3>
-
-
+                <h2>Wekelijkse vragen</h2>
+                <p>
+                    Welk nieuwsbericht / uitspraak / toespraak (speech) van kanditaten/partijen pakte jouw aandacht afgelopen week? Geef a.u.b. minimaal één artikel of nieuwsbericht op. Je kunt er maximaal drie invoeren. Je kunt het artikel/nieuwsbericht kopiëren/plakken of zelf schrijven in de boxen hieronder.
+                </p>
+                <!-- article 1 -->
                 <br />
-                <!-- question 7 using checkboxes -->
-                <h3>Welke kranten lees je (om het nieuws te volgen)?</h3>
+                <h3>Artikel 1:</h3>
+                <p>
+                    Bron van artikel:
+                </p>
+                <form action="">
+                  <input type="radio" name="source" value="TV kanaal">TV kanaal<br>
+                  <input type="radio" name="source" value="Social media">Social media<br>
+                  <input type="radio" name="source" value="(Online) krant">(Online) krant<br>
+                  <input type="radio" name="source" value="Toespraak (speech)">Toespraak (speech)<br>
+                  <input type="radio" name="source" value="Debat">Debat<br>
+                  <input type="radio" name="source" value="Anders">Anders... (meld hieronder)<br>
+                </form>
+                <p>
+                    Inhoud van artikel/nieuwsbericht
+                </p>
+                <textarea rows="10" cols="50">
+                </textarea>
 
-
+                <!-- article 2 -->
                 <br />
-                <!-- question 8 using checkboxes -->
-                <h3>Welke tv programma's kijk je (om het nieuws te volgen)?</h3>
+                <h3>Artikel 2:</h3>
+                <p>
+                    Bron van artikel:
+                </p>
+                <form action="">
+                  <input type="radio" name="source" value="TV kanaal">TV kanaal<br>
+                  <input type="radio" name="source" value="Social media">Social media<br>
+                  <input type="radio" name="source" value="(Online) krant">(Online) krant<br>
+                  <input type="radio" name="source" value="Toespraak (speech)">Toespraak (speech)<br>
+                  <input type="radio" name="source" value="Debat">Debat<br>
+                  <input type="radio" name="source" value="Anders">Anders... (meld hieronder)<br>
+                </form>
+                <p>
+                    Inhoud van artikel/nieuwsbericht
+                </p>
+                <textarea rows="10" cols="50">
+                </textarea>
 
-
+                <!-- article 3 -->
                 <br />
-                <!-- question 6 using dropdownlist -->
-                <h3>Op welke partij zou je NU stemmen?</h3>
+                <h3>Artikel 3:</h3>
+                <p>
+                    Bron van artikel:
+                </p>
+                <form action="">
+                  <input type="radio" name="source" value="TV kanaal">TV kanaal<br>
+                  <input type="radio" name="source" value="Social media">Social media<br>
+                  <input type="radio" name="source" value="(Online) krant">(Online) krant<br>
+                  <input type="radio" name="source" value="Toespraak (speech)">Toespraak (speech)<br>
+                  <input type="radio" name="source" value="Debat">Debat<br>
+                  <input type="radio" name="source" value="Anders">Anders... (meld hieronder)<br>
+                </form>
+                <p>
+                    Inhoud van artikel/nieuwsbericht
+                </p>
+                <textarea rows="10" cols="50">
+                </textarea>
+
+                <!-- party vote question -->
+                <br />
+                <h3>Op welke van de volgende partijen zou je stemmen op 15 maart (kan anders zijn dan eerder)?</h3>
+                <select>
+                    <option value="50 Plus">50 Plus</option>
+                    <option value="CDA">CDA</option>
+                    <option value="D66">D66</option>
+                    <option value="GroenLinks">GroenLinks</option>
+                    <option value="PvdA">PvdA</option>
+                    <option value="PVV">PVV</option>
+                    <option value="VVD">VVD</option>
+                    <option value="SP">SP</option>
+                </select>
+                <br />
+
 
                 <br />
                 <br />
