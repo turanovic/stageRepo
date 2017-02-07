@@ -48,6 +48,7 @@
                   <input type="radio" name="source" value="Debat">Debat<br>
                   <input type="radio" name="source" value="Anders">Anders... (meld hieronder)<br>
                 </form>
+                <br/>
                 <p>
                     Inhoud van artikel/nieuwsbericht
                 </p>
@@ -68,6 +69,7 @@
                   <input type="radio" name="source" value="Debat">Debat<br>
                   <input type="radio" name="source" value="Anders">Anders... (meld hieronder)<br>
                 </form>
+                <br/>
                 <p>
                     Inhoud van artikel/nieuwsbericht
                 </p>
@@ -88,6 +90,7 @@
                   <input type="radio" name="source" value="Debat">Debat<br>
                   <input type="radio" name="source" value="Anders">Anders... (meld hieronder)<br>
                 </form>
+                <br/>
                 <p>
                     Inhoud van artikel/nieuwsbericht
                 </p>
@@ -95,6 +98,8 @@
                 </textarea>
 
                 <!-- party vote question -->
+                <br/>
+                <br/>
                 <br />
                 <h3>Op welke van de volgende partijen zou je stemmen op 15 maart (kan anders zijn dan eerder)?</h3>
                 <select>
