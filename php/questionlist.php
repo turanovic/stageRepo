@@ -10,9 +10,10 @@
         ?>
 
         
-
-     <div class="container">
-        <div class="col-md-4 col-md-offset-4 mainForm">
+    <div class="container-fluid">
+         <div class="row">
+         
+            <div class="col-lg-6 col-md-10 col-sm-12 mainForm">
             
             <form id="form" class="form-horizontal">
                 <!-- title -->
@@ -40,8 +41,7 @@
                 <p>
                     Inhoud van artikel/nieuwsbericht
                 </p>
-                <textarea rows="10" cols="50">
-                </textarea>
+                <textarea class="boxsizingBorder"></textarea>
 
                 <!-- article 2 -->
                 <br/>
@@ -63,8 +63,7 @@
                 <p>
                     Inhoud van artikel/nieuwsbericht
                 </p>
-                <textarea rows="10" cols="50">
-                </textarea>
+                <textarea class="boxsizingBorder"></textarea>
 
                 <!-- article 3 -->
                 <br/>
@@ -86,8 +85,7 @@
                 <p>
                     Inhoud van artikel/nieuwsbericht
                 </p>
-                <textarea rows="10" cols="50">
-                </textarea>
+                <textarea class="boxsizingBorder"></textarea>
 
                 <!-- party vote question -->
                 <br/>
@@ -115,7 +113,10 @@
                 </div>
 
             </form>
-        </div>
+            </div>
+         
+         </div>
+        
     </div>
 
     </body>
