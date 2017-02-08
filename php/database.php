@@ -4,7 +4,7 @@ function verbind(){
     
     //variables
   $servername = 'localhost';
-  $username = 'root@localhost';
+  $username = 'root';
   $password = '';
   $dbname = 'TheDayAfter';
 
