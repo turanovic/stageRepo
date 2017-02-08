@@ -3,10 +3,10 @@
 function verbind(){
     
     //variables
-  $servername = "localhost"
-  $username = "root";
-  $password = "";
-  $dbname = "TheDayAfter";
+  $servername = 'localhost';
+  $username = 'root@localhost';
+  $password = '';
+  $dbname = 'TheDayAfter';
 
     //create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
