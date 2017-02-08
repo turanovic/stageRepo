@@ -3,8 +3,8 @@
 function verbind(){
     
     //variables
-  $servername = "127.0.0.1"
-  $username = "root@localhost";
+  $servername = "localhost"
+  $username = "";
   $password = "";
   $dbname = "TheDayAfter";
 
