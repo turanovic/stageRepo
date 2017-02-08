@@ -43,6 +43,27 @@
                 </p>
                 <textarea class="boxsizingBorder"></textarea>
 
+
+                <!--
+                CODE OM TE KOPPELEN MET FORM
+
+                <form action="demo_form.asp" id="usrform">
+                  Name: <input type="text" name="usrname">
+                  <input type="submit">
+                </form>
+
+                <textarea name="comment" form="usrform">Enter text here...</textarea>
+                
+                
+                
+                
+                
+                -->
+
+
+
+
+
                 <!-- article 2 -->
                 <br/>
                 <br />
