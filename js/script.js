@@ -36,3 +36,4 @@ function submitForm() {
 }
 var display = document.getElementById('submitButton')
 display.addEventListener('click', submitForm, false)
+
