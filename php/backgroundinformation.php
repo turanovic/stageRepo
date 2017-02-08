@@ -25,7 +25,7 @@
      <div class="container-fluid">
          <div class="row">
          
-            <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 mainForm">
+            <div class="col-lg-6 col-md-10 col-sm-12 mainForm">
 
                 <form id="form" class="form-horizontal"  action="backgroundinformation.php" method="post">
                     <!-- title -->
