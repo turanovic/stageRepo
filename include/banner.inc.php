@@ -1,8 +1,3 @@
-<?php
-
-?>
-
-
 <!-- the background of the page -->
 <div id="background"></div>
 
