@@ -94,15 +94,16 @@
                 <br/>
                 <br />
                 <h3>Op welke van de volgende partijen zou je stemmen op 15 maart (kan anders zijn dan eerder)?</h3>
-                <select>
-                    <option value="50 Plus">50 Plus</option>
-                    <option value="CDA">CDA</option>
-                    <option value="D66">D66</option>
-                    <option value="GroenLinks">GroenLinks</option>
-                    <option value="PvdA">PvdA</option>
-                    <option value="PVV">PVV</option>
-                    <option value="VVD">VVD</option>
-                    <option value="SP">SP</option>
+                 <select>
+                    <option value="0">Weet ik niet / ik ga niet stemmen</option>
+                    <option value="1">50 Plus (Henk Krol)</option>
+                    <option value="2">CDA (Sybrand Buma)</option>
+                    <option value="3">D66 (Alexander Pechtold)</option>
+                    <option value="4">GroenLinks (Jesse Klaver)</option>
+                    <option value="5">PvdA (Lodewijk Asscher)</option>
+                    <option value="6">PVV (Geert Wilders)</option>
+                    <option value="7">VVD (Mark Rutte)</option>
+                    <option value="8">SP (Emiel Roemer)</option>
                 </select>
                 <br />
 
