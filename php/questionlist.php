@@ -53,10 +53,7 @@
                 </form>
 
                 <textarea name="comment" form="usrform">Enter text here...</textarea>
-                
-                
-                
-                
+                         
                 
                 -->
 

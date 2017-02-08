@@ -1,10 +1,9 @@
 <?php
 
-class database
-{
-
-  //variables
-  $servername = "localhost";
+function verbind(){
+    
+    //variables
+  $servername = "10.235.26.48:8080"
   $username = "root";
   $password = "";
   $dbname = "TheDayAfter";
@@ -21,4 +20,6 @@ class database
     $conn->close();
 
 }
+  
+verbind();
 ?>
