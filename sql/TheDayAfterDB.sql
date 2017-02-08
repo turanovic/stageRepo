@@ -118,7 +118,7 @@ add foreign key (userID)
 references userBackground(userID)
 
 alter table weeklyAnswer
-add foreigen key (periodID)
+add foreign key (periodID)
 references period(periodID)
 
 alter table weeklyAnswer

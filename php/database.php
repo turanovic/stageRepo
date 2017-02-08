@@ -4,26 +4,21 @@ class database
 {
 
   //variables
-  public $host;
-  public $user;
+  $servername = "localhost";
+  $username = "root";
+  $password = "";
+  $dbname = "TheDayAfter";
 
-  //database function
-  function db()
-  {
-    $this->host="localhost";
+    //create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
 
-  }
+    //check connection
+    if($conn->connect_error)
+    {
+      die("Connection failed: " . $conn->connect_error);
+    }
 
-  //connect funtion
-  public function connect()
-  {
+    $conn->close();
 
-  }
-
-  //connect function
-  public function insert()
-  {
-
-  }
 }
 ?>
