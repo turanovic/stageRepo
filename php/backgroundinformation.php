@@ -105,7 +105,7 @@
                         <option value="2">Basisonderwijs</option>
                         <option value="3">LBO / VBO / VMBO (kader- en beroepsgerichte leerweg)</option>
                         <option value="4">MAVO / eerste 3 jaar HAVO en VWO / VMBO (theoretische en gemengde leerweg)</option>
-                        <option value="5">MBO</option>l</option>
+                        <option value="5">MBO</option>
                         <option value="6">HAVO en VWO bovenbouw / WO en HBO propedeuse</option>
                         <option value="7">HBO / WO-bachelor of kandidaats</option>
                         <option value="8">WO-doctoraal of master</option>
