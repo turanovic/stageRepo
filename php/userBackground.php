@@ -121,7 +121,7 @@ class userBackground
         die("Connection failed: " . $conn->connect_error);
       }
 
-      $userID = "";
+      //$userID = "";
       $birthdate = "";
       $gender = $_POST['gender'];
       $household = $_POST['household'];
