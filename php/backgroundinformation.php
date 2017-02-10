@@ -14,7 +14,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <header>
-        <title>Achtergrond informatie</title>
+        <title>Achtergrondinformatie</title>
         <?php include('../include/header.inc.php');?>
     </header>
     <body>
@@ -31,7 +31,7 @@
 
                 <form id="form" class="form-horizontal" method="post">
                     <!-- title -->
-                    <h2>Achtergrond informatie</h2>
+                    <h2>Achtergrondinformatie</h2>
 
                     <br />
                     <br/>
@@ -150,7 +150,7 @@
                     <br />
                     <br />
                     <!-- title -->
-                    <h2>Verkiezingsachtergrond informatie</h2>
+                    <h2>Verkiezingsachtergrondinformatie</h2>
                     <br />
                     <!-- question 7 -->
                     <h3>7. Op welke van de volgende partijen zou je stemmen op 15 maart?</h3>
