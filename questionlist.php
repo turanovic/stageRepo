@@ -14,8 +14,9 @@
          <div class="row">
          
             <div class="col-lg-6 col-md-10 col-sm-12 mainForm">
-            
-            <form id="form" class="form-horizontal">
+                  
+                <form id="form" class="form-horizontal" method="post" action="send.php">
+                    <input type="hidden" name="actie" value="weekly">
                 <!-- title -->
                 <h2>Wekelijkse vragen</h2>
                 <!-- information -->
@@ -29,14 +30,14 @@
                     Bron van artikel:
                 </p>
                 <!-- action: unknown for now // method=post (data invisible for others) -->
-                <form action="" method="post">
+                
                   <input type="radio" name="source1" value="TV kanaal">TV kanaal<br>
                   <input type="radio" name="source1" value="Social media">Social media<br>
                   <input type="radio" name="source1" value="(Online) krant">(Online) krant<br>
                   <input type="radio" name="source1" value="Toespraak (speech)">Toespraak (speech)<br>
                   <input type="radio" name="source1" value="Debat">Debat<br>
                   <input type="radio" name="source1" value="Anders">Anders... (meld hieronder)<br>
-                </form>
+                
                 <br/>
                 <p>
                     Inhoud van artikel/nieuwsbericht
