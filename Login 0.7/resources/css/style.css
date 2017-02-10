@@ -1,0 +1,167 @@
+/*
+MavenPro
+Roboto
+VarelaRound
+IndieFlower
+Lobster
+*/
+@import url("font.css");
+@import url("default.css");
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto";
+    height: 100%;
+    margin: 0;
+    background: #F8F8F8;
+    color: #303030;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #303030;
+    color: #F0F0F0;
+}
+
+header h1 {
+    font-family: "Lobster";
+    font-size: 50px;
+    padding: 10px;
+    margin: 0;
+}
+
+main {
+    height: 100%;
+    background: #F0F0F0;
+    box-shadow: inset 0 0 5px #303030;
+    display: flex;
+    justify-content: center;
+    align-items: baseline
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer label {
+    font-style: italic;
+    font-size: 20px;
+}
+
+form {
+    margin: 25px;
+    text-align: center;
+    font-family: "MavenPro";
+    font-size: 20px;
+    background: #F8F8F8;
+    border: 1px solid #303030;
+    width: 100%;
+    
+}
+
+form:first-child {
+    max-width: 500px;
+    min-width: 325px;
+}
+
+form:last-child {
+    max-width: 350px;
+    min-width: 275px;
+}
+
+form * {
+
+    margin: 30px;
+}
+
+form h2 {
+    margin: 0 0 10px 0;
+    padding: 10px;
+    background: #303030;
+    color: #F0F0F0;
+    border-radius: 0 0 25% 0;
+    box-shadow: 2PX 1PX 5px #303030;
+    transition: 250ms ease-out;
+}
+
+form:hover h2 {
+   color: 
+}
+
+
+form button {
+    display: block;
+    margin: 15px auto;
+    font-family: "MavenPro";
+    font-size: 20px;
+    transition: 250ms ease-out;
+    padding: 10px 20px;
+    border: 0;
+    color: #F0F0F0;
+}
+
+form button:hover {
+    border-radius: 15px 0;
+    box-shadow: 1px 1px 5px #303030;
+    transform: translate3d(5px, -5px, 5px);
+}
+
+form:first-child button {
+    background: #4CAF50;
+}
+
+form:last-child button {
+    background: #4285f4;
+}
+
+form input {
+    font-family: "MavenPro";
+    background: transparent;
+    border:1px solid transparent;
+    border-bottom: 1px solid #909090;
+    border-right: 1px solid #909090;
+    font-size: 20px;
+    padding: 10px 15px;
+    transition: 150ms ease-out;
+    border-radius: 0 0 3px 0;
+}
+
+form input:hover {
+    background: rgba(76,175,80,.25);
+    box-shadow: 0 0 5px rgba(76,175,80,.5);
+}
+
+form input:focus {
+    background: rgba(76,175,80,.5);
+    box-shadow: 0 0 10px rgba(76,175,80,.8);
+    border-bottom: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-radius: 5px;
+    border:1px rgba(76,175,80,.8) solid ;
+    transform: scale(1.15);
+}
+
+form ::-webkit-input-placeholder {
+    font-style: italic;
+    color: #303030;
+}
+
+form label {
+    color: transparent;
+    transition: 250ms ease-out;
+}
+
+.bad {
+    color: #dd4b39;
+}
+
+.good {
+    color: #4CAF50;
+}

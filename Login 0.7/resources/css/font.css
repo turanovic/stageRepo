@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Material";
+    src: url(../../assets/font/Material.ttf) format("TrueType");
+}
+
+@font-face {
+    font-family: "MavenPro";
+    src: url(../../assets/font/MavenPro.ttf) format("TrueType");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../../assets/font/Roboto.ttf) format("TrueType");
+}
+
+@font-face {
+    font-family: "VarelaRound";
+    src: url(../../assets/font/VarelaRound.ttf) format("TrueType");
+}
+
+@font-face {
+    font-family: "IndieFlower";
+    src: url(../../assets/font/IndieFlower.ttf) format("TrueType");
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url(../../assets/font/Lobster.ttf) format("TrueType");
+}
