@@ -40,7 +40,10 @@ function submitForm() {
 
 $(document).ready(function () {
 
-    // NEWS CHANNELS VALIDATION
+
+    ///////////////////////////
+    // NEWS CHANNELS CHECKBOXES
+    ///////////////////////////
     //set initial state.
     $('#nochannel').val($(this).is(':checked'));
 
@@ -62,20 +65,41 @@ $(document).ready(function () {
 
     });
 
-    // submit button click
-    $( "#submit_backgroundinformation" ).click(function() {
 
-      // if none news channel is selected
-      if (!jQuery("#nochannel").is(":checked") && $("input.newschannels:checked").length <= 0) {
-          alert("Beantwoord a.u.b. vraag 8");
+
+    // SUBMIT BUTTON CLICK
+    $("#submit_backgroundinformation").click(function () {
+
+
+        //////////////////////
+        // BIRTHDAY VALIDATION
+        //////////////////////
+        var monthselect = $("#month_select").val();
+        var dayselect = $("#day_select").val();
+        if ( ( ( monthselect == 4 || monthselect == 6 || monthselect == 9 || monthselect == 11) && dayselect == '31' ) || ( monthselect == 2 && dayselect >= 29 )) {
+            alert("U heeft een ongeldige datum ingevoerd. Verander a.u.b. uw geboortedatum.");
             return false;
-            
         }
+
+
+        ///////////////////////////
+        // NEWS CHANNELS VALIDATION
+        ///////////////////////////
+        // if none news channel is selected
+        if (!jQuery("#nochannel").is(":checked") && $("input.newschannels:checked").length <= 0) {
+            alert("Beantwoord a.u.b. vraag 8.");
+            return false;
+
+        }
+        
+
+        // everything ok
         return true;
     });
 
 
-    
+
+
 });
         
     
