@@ -30,18 +30,18 @@
                 </p>
                 <!-- action: unknown for now // method=post (data invisible for others) -->
                 <form action="" method="post">
-                  <input type="radio" name="source" value="TV kanaal">TV kanaal<br>
-                  <input type="radio" name="source" value="Social media">Social media<br>
-                  <input type="radio" name="source" value="(Online) krant">(Online) krant<br>
-                  <input type="radio" name="source" value="Toespraak (speech)">Toespraak (speech)<br>
-                  <input type="radio" name="source" value="Debat">Debat<br>
-                  <input type="radio" name="source" value="Anders">Anders... (meld hieronder)<br>
+                  <input type="radio" name="source1" value="TV kanaal">TV kanaal<br>
+                  <input type="radio" name="source1" value="Social media">Social media<br>
+                  <input type="radio" name="source1" value="(Online) krant">(Online) krant<br>
+                  <input type="radio" name="source1" value="Toespraak (speech)">Toespraak (speech)<br>
+                  <input type="radio" name="source1" value="Debat">Debat<br>
+                  <input type="radio" name="source1" value="Anders">Anders... (meld hieronder)<br>
                 </form>
                 <br/>
                 <p>
                     Inhoud van artikel/nieuwsbericht
                 </p>
-                <textarea class="boxsizingBorder"></textarea>
+                <textarea class="boxsizingBorder" id="source1text"></textarea>
 
 
                 <!--
@@ -127,7 +127,7 @@
                 <br />
                 <br />
                 <div class="form-actions">
-                    <a href="./questionlist.php"><button type="button">Lever antwoorden in</button></a>
+                    <button type="button" id="submit_questionlist">Enquête inleveren</button>
                 </div>
 
             </form>
