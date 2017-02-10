@@ -15,11 +15,11 @@
 <html lang="en">
     <header>
         <title>Achtergrondinformatie</title>
-        <?php include('../include/header.inc.php');?>
+        <?php include('./include/header.inc.php');?>
     </header>
     <body>
         <?php
-            include('../include/banner.inc.php');
+            include('./include/banner.inc.php');
         ?>
 
         

@@ -2,11 +2,11 @@
 <html lang="en">
     <head>
         <title>Wekelijkse vragen</title>
-        <?php include('../include/header.inc.php')?>
+        <?php include('./include/header.inc.php')?>
     </head>
     <body>
         <?php
-            include('../include/banner.inc.php');
+            include('./include/banner.inc.php');
         ?>
 
         

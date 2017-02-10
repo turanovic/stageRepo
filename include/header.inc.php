@@ -26,10 +26,10 @@
 
 
 <!-- Custom Styling -->
-<link href="../css/Style.css" rel="stylesheet">
+<link href="./css/Style.css" rel="stylesheet">
 
 <!-- custom js -->
-<script src="../js/script.js"></script>
+<script src="./js/script.js"></script>
 
 
 
