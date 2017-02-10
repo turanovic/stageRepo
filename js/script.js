@@ -67,7 +67,7 @@ $(document).ready(function () {
 
 
 
-    // SUBMIT BUTTON CLICK
+    // SUBMIT BUTTON CLICK (BACKGROUND INFORMATION)
     $("#submit_backgroundinformation").click(function () {
 
 
@@ -98,8 +98,23 @@ $(document).ready(function () {
     });
 
 
+    // SUBMIT BUTTON CLICK (WEEKLY QUESTIONS)
+     $("#submit_questionlist").click(function () {
+
+        if (!$('input[name=source1]:checked').val() ) { 
+            alert("Selecteer a.u.b. een nieuwsbron bij artikel 1.");
+            return false;
+        }
+
+        if ($("#source1text").val().length < 15) {
+            alert("Typ of kopieer a.u.b. tekst in het tekstblok bij artikel 1.");
+            return false;
+        }
 
 
+         return true;
+
+    });
 });
         
     
