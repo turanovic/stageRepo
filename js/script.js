@@ -34,6 +34,33 @@ function submitForm() {
 
 	console.log(surveyArray)
 }
-var display = document.getElementById('submitButton')
-display.addEventListener('click', submitForm, false)
+// var display = document.getElementById('submitButton')
+// display.addEventListener('click', submitForm, false)
 
+
+$(document).ready(function() {
+    //set initial state.
+    $('#nochannel').val($(this).is(':checked'));
+
+    // if there is a change in the #nochannel checkbox
+    $('#nochannel').change(function() {
+
+        // if selected
+        if($(this).is(":checked")) 
+        {
+            $('#nochannel').val($(this).is(':checked'));    
+            // disable and remove all newschannels selections
+            $(".newschannels").attr("checked", false);
+            $(".newschannels").attr("disabled", true);
+        }
+        // if deselected
+        else
+        {
+            // enable all channels
+            $(".newschannels").attr("disabled", false);
+        }
+        
+    });
+});
+        
+    

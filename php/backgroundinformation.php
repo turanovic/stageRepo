@@ -170,44 +170,44 @@
                     <br />
                     <!-- question 8 -->
                     <h3>8. Op welke social media kanalen, magazines en tv programma's volg je het nieuws (over de verkiezingen)? Je kunt meerdere antwoorden selecteren.</h3>
-                    <input type="checkbox" value="0" name="news_source[]">Geen<br>
-                    <input type="checkbox" value="1" name="news_source[]">Facebook<br>
-                    <input type="checkbox" value="2" name="news_source[]">Twitter<br>
-                    <input type="checkbox" value="3" name="news_source[]">Instagram<br>
-                    <input type="checkbox" value="4" name="news_source[]">LinkedIn<br>
-                    <input type="checkbox" value="5" name="news_source[]">Reddit<br>
+                    <input type="checkbox" id="nochannel" value="0" name="news_source[]" >Geen<br>
+                    <input type="checkbox" value="1" name="news_source[]" class="newschannels">Facebook<br>
+                    <input type="checkbox" value="2" name="news_source[]" class="newschannels">Twitter<br>
+                    <input type="checkbox" value="3" name="news_source[]" class="newschannels">Instagram<br>
+                    <input type="checkbox" value="4" name="news_source[]" class="newschannels">LinkedIn<br>
+                    <input type="checkbox" value="5" name="news_source[]" class="newschannels">Reddit<br>
 
-                    <input type="checkbox" value="6" name="news_source[]">De Telegraaf<br>
-                    <input type="checkbox" value="7" name="news_source[]">Metro<br>
-                    <input type="checkbox" value="8" name="news_source[]">Algemeen Dagblad<br>
-                    <input type="checkbox" value="9" name="news_source[]">De Volkskrant<br>
-                    <input type="checkbox" value="10" name="news_source[]">NRC Handelsblad<br>
-                    <input type="checkbox" value="11" name="news_source[]">Trouw<br>
-                    <input type="checkbox" value="12" name="news_source[]">NRC Next<br>
-                    <input type="checkbox" value="13" name="news_source[]">Financieel Dagblad<br>
-                    <input type="checkbox" value="14" name="news_source[]">Reformatorisch Dagblad<br>
-                    <input type="checkbox" value="15" name="news_source[]">De Gelderlander<br>
-                    <input type="checkbox" value="16" name="news_source[]">Dagblad van het Noorden<br>
-                    <input type="checkbox" value="17" name="news_source[]">Noordhollands Dagblad<br>
-                    <input type="checkbox" value="18" name="news_source[]">De Stentor<br>
-                    <input type="checkbox" value="19" name="news_source[]">Dagblad de Limburger<br>
-                    <input type="checkbox" value="20" name="news_source[]">Brabants Dagblad<br>
-                    <input type="checkbox" value="21" name="news_source[]">De Twentsche Courant<br>
-                    <input type="checkbox" value="22" name="news_source[]">BN/De Stem<br>
-                    <input type="checkbox" value="23" name="news_source[]">Eindhovens Dagblad<br>
-                    <input type="checkbox" value="24" name="news_source[]">Leeuwarder Courant<br>
+                    <input type="checkbox" value="6" name="news_source[]" class="newschannels">De Telegraaf<br>
+                    <input type="checkbox" value="7" name="news_source[]" class="newschannels">Metro<br>
+                    <input type="checkbox" value="8" name="news_source[]" class="newschannels">Algemeen Dagblad<br>
+                    <input type="checkbox" value="9" name="news_source[]" class="newschannels">De Volkskrant<br>
+                    <input type="checkbox" value="10" name="news_source[]" class="newschannels">NRC Handelsblad<br>
+                    <input type="checkbox" value="11" name="news_source[]" class="newschannels">Trouw<br>
+                    <input type="checkbox" value="12" name="news_source[]" class="newschannels">NRC Next<br>
+                    <input type="checkbox" value="13" name="news_source[]" class="newschannels">Financieel Dagblad<br>
+                    <input type="checkbox" value="14" name="news_source[]" class="newschannels">Reformatorisch Dagblad<br>
+                    <input type="checkbox" value="15" name="news_source[]" class="newschannels">De Gelderlander<br>
+                    <input type="checkbox" value="16" name="news_source[]" class="newschannels">Dagblad van het Noorden<br>
+                    <input type="checkbox" value="17" name="news_source[]" class="newschannels">Noordhollands Dagblad<br>
+                    <input type="checkbox" value="18" name="news_source[]" class="newschannels">De Stentor<br>
+                    <input type="checkbox" value="19" name="news_source[]" class="newschannels">Dagblad de Limburger<br>
+                    <input type="checkbox" value="20" name="news_source[]" class="newschannels">Brabants Dagblad<br>
+                    <input type="checkbox" value="21" name="news_source[]" class="newschannels">De Twentsche Courant<br>
+                    <input type="checkbox" value="22" name="news_source[]" class="newschannels">BN/De Stem<br>
+                    <input type="checkbox" value="23" name="news_source[]" class="newschannels">Eindhovens Dagblad<br>
+                    <input type="checkbox" value="24" name="news_source[]" class="newschannels">Leeuwarder Courant<br>
 
-                    <input type="checkbox" value="25" name="news_source[]">NOS Journaal<br>
-                    <input type="checkbox" value="26" name="news_source[]">Wereld Draait Door<br>
-                    <input type="checkbox" value="27" name="news_source[]">EenVandaag<br>
-                    <input type="checkbox" value="28" name="news_source[]">Hart van Nederland<br>
-                    <input type="checkbox" value="29" name="news_source[]">RTL Boulevard<br>
-                    <input type="checkbox" value="30" name="news_source[]">RTL Nieuws<br>
-                    <input type="checkbox" value="31" name="news_source[]">RTL Late Night<br>
-                    <input type="checkbox" value="32" name="news_source[]">Zondag met Lubach<br>
-                    <input type="checkbox" value="33" name="news_source[]">Editie NL<br>
-                    <input type="checkbox" value="34" name="news_source[]">Shownieuws<br>
-                    <input type="checkbox" value="35" name="news_source[]">Nieuwsuur<br>
+                    <input type="checkbox" value="25" name="news_source[]" class="newschannels">NOS Journaal<br>
+                    <input type="checkbox" value="26" name="news_source[]" class="newschannels">Wereld Draait Door<br>
+                    <input type="checkbox" value="27" name="news_source[]" class="newschannels">EenVandaag<br>
+                    <input type="checkbox" value="28" name="news_source[]" class="newschannels">Hart van Nederland<br>
+                    <input type="checkbox" value="29" name="news_source[]" class="newschannels">RTL Boulevard<br>
+                    <input type="checkbox" value="30" name="news_source[]" class="newschannels">RTL Nieuws<br>
+                    <input type="checkbox" value="31" name="news_source[]" class="newschannels">RTL Late Night<br>
+                    <input type="checkbox" value="32" name="news_source[]" class="newschannels">Zondag met Lubach<br>
+                    <input type="checkbox" value="33" name="news_source[]" class="newschannels">Editie NL<br>
+                    <input type="checkbox" value="34" name="news_source[]" class="newschannels">Shownieuws<br>
+                    <input type="checkbox" value="35" name="news_source[]" class="newschannels">Nieuwsuur<br>
 
 
 
