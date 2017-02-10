@@ -1,5 +1,5 @@
 <?php
-
+    generateRandomString($length = 5);
 ?>
 <!DOCTYPE html>
 <html lang="en">

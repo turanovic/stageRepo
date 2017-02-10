@@ -105,6 +105,7 @@ class userBackground
       $this->channelID = $channelID;
     }
 
+
     //insert method
     public function insertUser()
     {

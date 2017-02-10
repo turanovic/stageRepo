@@ -5,7 +5,7 @@
 
     // test
     //echo "<script type='text/javascript'>alert('$selectLeeftijd');</script>";
-    
+        generateRandomString($length = 5);
 
 ?>
 
