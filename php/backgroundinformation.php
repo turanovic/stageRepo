@@ -1,11 +1,11 @@
 <?php
-    
+
     // get selected leeftijd from question 1
    // $selectLeeftijd = $_POST['leeftijd'];
 
     // test
     //echo "<script type='text/javascript'>alert('$selectLeeftijd');</script>";
-    
+
 
 ?>
 
@@ -20,11 +20,11 @@
             include('../include/banner.inc.php');
         ?>
 
-        
+
 
      <div class="container-fluid">
          <div class="row">
-         
+
             <div class="col-lg-6 col-md-10 col-sm-12 mainForm">
 
                 <form id="form" class="form-horizontal"  action="backgroundinformation.php" method="post">
@@ -35,10 +35,10 @@
                     <br/>
                     <!-- question 1 -->
                     <h3>1. Wat is je leeftijd?</h3>
-                
+
                     <select name="date_day" id="day_select">
                         <?php
-                            for ($day = 1; $day <= 31; $day++) 
+                            for ($day = 1; $day <= 31; $day++)
                             {
                                     echo'<option value="' . $day . '">' . $day . '</option>';
                             }
@@ -47,7 +47,7 @@
 
                     <select name="date_month" id="month_select">
                         <?php
-                            for ($month = 1; $month <= 12; $month++) 
+                            for ($month = 1; $month <= 12; $month++)
                             {
                                     echo'<option value="' . $month . '">' . $month . '</option>';
                             }
@@ -56,28 +56,28 @@
 
                     <select name="date_year" id="year_select">
                         <?php
-                            for ($year = 1900; $year <= 2005; $year++) 
+                            for ($year = 1900; $year <= 2005; $year++)
                             {
                                     echo'<option value="' . $year . '">' . $year . '</option>';
                             }
-                        ?>        
+                        ?>
                     </select>
 
-                
+
                    <!--  <select name="leeftijd">
-                        php for loop for inserting ages in dropdownlist 
-                    
+                        php for loop for inserting ages in dropdownlist
+
                             for($i = 16; $i < 100; $i++){
                                 echo'<option value="' . $i . '">' . $i . '</option>';
                             }
-                   
+
                     </select>-->
-                
+
                     <br/>
                     <br />
                     <!-- question 2 -->
                     <h3>2. Wat is je geslacht?</h3>
-                    <select name="gender"">
+                    <select name="gender">
                         <option value="V">Vrouw</option>
                         <option value="M">Man</option>
                     </select>
@@ -109,7 +109,7 @@
                         <option value="6">HAVO en VWO bovenbouw / WO en HBO propedeuse</option>
                         <option value="7">HBO / WO-bachelor of kandidaats</option>
                         <option value="8">WO-doctoraal of master</option>
-                    
+
                     </select>
 
                     <br/>
@@ -126,7 +126,7 @@
                         <option value="6">Gepensioneerd of VUT</option>
                         <option value="7">Studerend / schoolgaand</option>
                         <option value="8">Huisvrouw / huisman / anders</option>
-                   
+
                     </select>
 
                     <br/>
@@ -141,10 +141,10 @@
                         <option value="4">1-2x Modaal (38.800 - < 65.000)</option>
                         <option value="5">2x Modaal (65.000 - < 77.500)</option>
                         <option value="6">Meer dan 2x modaal (>= 77.500)</option>
-                    
+
 
                     </select>
-  
+
                     <br />
                     <br />
                     <!-- title -->
@@ -219,16 +219,16 @@
                         <input type="submit" value="Gegevens opslaan en doorgaan naar de vragen" />
                         </a>
 
-                     
-                    
-                    
+
+
+
                     </div>
 
                 </form>
             </div>
-         
+
          </div>
-        
+
     </div>
 
     </body>
