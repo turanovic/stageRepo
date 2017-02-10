@@ -1,7 +1,7 @@
 //store our survey answers in this array
 var surveyArray = []
 
-//submits the form onclick
+/*submits the form onclick
 function submitForm() {
 	var form = document.getElementById('form')
 	var selected = document.getElementById('select').value
@@ -33,34 +33,49 @@ function submitForm() {
 	surveyArray.push(newSurvey)
 
 	console.log(surveyArray)
-}
+} */
 // var display = document.getElementById('submitButton')
 // display.addEventListener('click', submitForm, false)
 
 
-$(document).ready(function() {
+$(document).ready(function () {
+
+    // NEWS CHANNELS VALIDATION
     //set initial state.
     $('#nochannel').val($(this).is(':checked'));
 
     // if there is a change in the #nochannel checkbox
-    $('#nochannel').change(function() {
+    $('#nochannel').change(function () {
 
         // if selected
-        if($(this).is(":checked")) 
-        {
-            $('#nochannel').val($(this).is(':checked'));    
+        if ($(this).is(":checked")) {
+            $('#nochannel').val($(this).is(':checked'));
             // disable and remove all newschannels selections
             $(".newschannels").attr("checked", false);
             $(".newschannels").attr("disabled", true);
         }
         // if deselected
-        else
-        {
+        else {
             // enable all channels
             $(".newschannels").attr("disabled", false);
         }
-        
+
     });
+
+    // submit button click
+    $( "#submit_backgroundinformation" ).click(function() {
+
+      // if none news channel is selected
+      if (!jQuery("#nochannel").is(":checked") && $("input.newschannels:checked").length <= 0) {
+          alert("Beantwoord a.u.b. vraag 8");
+            return false;
+            
+        }
+        return true;
+    });
+
+
+    
 });
         
     

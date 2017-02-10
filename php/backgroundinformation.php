@@ -29,7 +29,7 @@
          
             <div class="col-lg-6 col-md-10 col-sm-12 mainForm">
 
-                <form id="form" class="form-horizontal"  action="backgroundinformation.php" method="post">
+                <form id="form" class="form-horizontal" method="post">
                     <!-- title -->
                     <h2>Achtergrond informatie</h2>
 
@@ -217,8 +217,8 @@
                     <!-- TO DO: leeftijd datum checken op geldigheid als op knop wordt gedrukt -->
                     <div class="form-actions">
                         <a href="./questionlist.php">
-                        <!--<button type="button" onclick="alertLeeftijd()"></button>-->
-                        <input type="submit" value="Gegevens opslaan en doorgaan naar de vragen" />
+                        <button type="button" id="submit_backgroundinformation">Gegevens opslaan en doorgaan naar de vragen</button>
+                        <!-- <input type="submit" value="Gegevens opslaan en doorgaan naar de vragen" id="submit_backgroundinformation"/> -->
                         </a>
 
                      
