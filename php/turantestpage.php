@@ -1,7 +1,5 @@
 <?php
-
 function verbind(){
-    
     //variables
   $servername = 'localhost';
   $username = 'root';
@@ -18,7 +16,7 @@ function verbind(){
     }
     else
     {
-        echo 'Connectie is aangemaakt.';
+        echo 'Connectie is aangemaakt. Jeej';
     }
 
     $conn->close();
