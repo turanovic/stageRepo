@@ -3,19 +3,17 @@ create database TheDayAfterDB;
 create table weeklyAnswer
 (
 		id					int not null auto_increment,
-		userID			int not null,									--Unique
-		periodID		int not null,									--Unique
+		userID			int not null,									--Unique?
+		periodID		int not null,									--Unique?
 		candidateID	int not null,
-		date 				datetime not null default curdate(),
+		date 				datetime not null default current_timestamp,
 	  source1			varchar(30) not null,
-	  article1		varchar(10000) not null,
+	  article1		text(10000) not null,
     source2			varchar(30),
-    article2		varchar(10000),
+    article2		text(10000),
     source3			varchar(30),
-    article3		varchar(10000),
-    primary key (id),
-		unique(userID),
-		unique(periodID)
+    article3		text(10000),
+    primary key (id)
 );
 
 create table userBackground
@@ -64,7 +62,8 @@ create table income
 create table candidate
 (
 	candidateID		int,
-	description		varchar(50),
+	party					varchar(50),
+	name					varchar(50),
 	primay key (candidateID)
 );
 
