@@ -122,7 +122,7 @@ class userBackground
       }
 
       //$userID = "";
-      $birthdate = "";
+      $birthdate = $_POST['date_year'] . $_POST['date_month'] . $_POST['date_day'];
       $gender = $_POST['gender'];
       $household = $_POST['household'];
       $educationID = $_POST['education'];
@@ -131,7 +131,7 @@ class userBackground
       $candidateID = $_POST['vote_party'];
       $channelID = $_POST['news_source[]'];
 
-      $sql = "INSERT INTO userBackground(userID, birthdate, gender, household, educationID, workID, incomeID, candidateID, channelID) VALUES ('$gender', '$household', '$educationID', '$workID', '$incomeID', '$candidateID', '$channelID')";
+      $sql = "INSERT INTO userBackground(userID, birthdate, gender, household, educationID, workID, incomeID, candidateID, channelID) VALUES ('$birthdate' ,'$gender', '$household', '$educationID', '$workID', '$incomeID', '$candidateID', '$channelID')";
 
       if ($conn->query($sql) === TRUE)
       {
