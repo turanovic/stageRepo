@@ -9,6 +9,8 @@
 
 ?>
 
+<!-- INFORMATIE DATA NAAR DATABASE: https://stackoverflow.com/questions/17139501/using-post-to-get-select-option-value-from-html -->
+
 <!DOCTYPE html>
 <html lang="en">
     <header>
@@ -34,7 +36,7 @@
                     <br />
                     <br/>
                     <!-- question 1 -->
-                    <h3>1. Wat is je leeftijd?</h3>
+                    <h3>1. Wat is je geboortedatum?</h3>
                 
                     <select name="date_day" id="day_select">
                         <?php
