@@ -1,5 +1,5 @@
 <?php
-
+include 'rndm.php';
 class userBackground
 {
     //declaration
@@ -13,15 +13,7 @@ class userBackground
     $private candidateID;
     $private channelID;
 
-    function generateRandomString($length = 10) {
-      $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-      $charactersLength = strlen($characters);
-      $randomString = '';
-      for ($i = 0; $i < $length; $i++) {
-        $randomString .= $characters[rand(0, $charactersLength - 1)];
-      }
-      return $randomString;
-    }
+
     //get/set methods
     public function getUserID()
     {
@@ -130,8 +122,7 @@ class userBackground
         die("Connection failed: " . $conn->connect_error);
       }
         
-
-        
+       
       $userID = $randomString;
       $birthdate = $_POST['date_day'.$_POST['date_month'.$_POST['date_year'.];
       $gender = $_POST['gender'];
