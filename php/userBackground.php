@@ -120,8 +120,18 @@ class userBackground
       {
         die("Connection failed: " . $conn->connect_error);
       }
-
-      //$userID = "";
+        
+      function generateRandomString($length = 10) {
+      $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+      $charactersLength = strlen($characters);
+      $randomString = '';
+      for ($i = 0; $i < $length; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+      }
+      return $randomString;
+      }
+        
+      $userID = "$randomString";
       $birthdate = "";
       $gender = $_POST['gender'];
       $household = $_POST['household'];
