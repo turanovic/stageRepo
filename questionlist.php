@@ -9,12 +9,12 @@
             include('./include/banner.inc.php');
         ?>
 
-        
+
     <div class="container-fluid">
          <div class="row">
-         
+
             <div class="col-lg-6 col-md-10 col-sm-12 mainForm">
-                  
+
                 <form id="form" class="form-horizontal" method="post" action="send.php">
                     <input type="hidden" name="actie" value="weekly">
                 <!-- title -->
@@ -30,19 +30,19 @@
                     Bron van artikel:
                 </p>
                 <!-- action: unknown for now // method=post (data invisible for others) -->
-                
+
                   <input type="radio" name="source1" value="TV kanaal">TV kanaal<br>
                   <input type="radio" name="source1" value="Social media">Social media<br>
                   <input type="radio" name="source1" value="(Online) krant">(Online) krant<br>
                   <input type="radio" name="source1" value="Toespraak (speech)">Toespraak (speech)<br>
                   <input type="radio" name="source1" value="Debat">Debat<br>
                   <input type="radio" name="source1" value="Anders">Anders... (meld hieronder)<br>
-                
+
                 <br/>
                 <p>
                     Inhoud van artikel/nieuwsbericht
                 </p>
-                <textarea class="boxsizingBorder" id="source1text"></textarea>
+                <textarea class="boxsizingBorder" id="source1text" name="article1"></textarea>
 
 
                 <!--
@@ -54,8 +54,8 @@
                 </form>
 
                 <textarea name="comment" form="usrform">Enter text here...</textarea>
-                         
-                
+
+
                 -->
 
 
@@ -71,18 +71,18 @@
                 </p>
                 <!-- action: unknown for now // method=post (data invisible for others) -->
                 <form action="" method="post">
-                  <input type="radio" name="source" value="TV kanaal">TV kanaal<br>
-                  <input type="radio" name="source" value="Social media">Social media<br>
-                  <input type="radio" name="source" value="(Online) krant">(Online) krant<br>
-                  <input type="radio" name="source" value="Toespraak (speech)">Toespraak (speech)<br>
-                  <input type="radio" name="source" value="Debat">Debat<br>
-                  <input type="radio" name="source" value="Anders">Anders... (meld hieronder)<br>
+                  <input type="radio" name="source2" value="TV kanaal">TV kanaal<br>
+                  <input type="radio" name="source2" value="Social media">Social media<br>
+                  <input type="radio" name="source2" value="(Online) krant">(Online) krant<br>
+                  <input type="radio" name="source2" value="Toespraak (speech)">Toespraak (speech)<br>
+                  <input type="radio" name="source2" value="Debat">Debat<br>
+                  <input type="radio" name="source2" value="Anders">Anders... (meld hieronder)<br>
                 </form>
                 <br/>
                 <p>
                     Inhoud van artikel/nieuwsbericht
                 </p>
-                <textarea class="boxsizingBorder"></textarea>
+                <textarea class="boxsizingBorder" name="article2"></textarea>
 
                 <!-- article 3 -->
                 <br/>
@@ -93,25 +93,25 @@
                 </p>
                 <!-- action: unknown for now // method=post (data invisible for others) -->
                 <form action="" method="post">
-                  <input type="radio" name="source" value="TV kanaal">TV kanaal<br>
-                  <input type="radio" name="source" value="Social media">Social media<br>
-                  <input type="radio" name="source" value="(Online) krant">(Online) krant<br>
-                  <input type="radio" name="source" value="Toespraak (speech)">Toespraak (speech)<br>
-                  <input type="radio" name="source" value="Debat">Debat<br>
-                  <input type="radio" name="source" value="Anders">Anders... (meld hieronder)<br>
+                  <input type="radio" name="source3" value="TV kanaal">TV kanaal<br>
+                  <input type="radio" name="source3" value="Social media">Social media<br>
+                  <input type="radio" name="source3" value="(Online) krant">(Online) krant<br>
+                  <input type="radio" name="source3" value="Toespraak (speech)">Toespraak (speech)<br>
+                  <input type="radio" name="source3" value="Debat">Debat<br>
+                  <input type="radio" name="source3" value="Anders">Anders... (meld hieronder)<br>
                 </form>
                 <br/>
                 <p>
                     Inhoud van artikel/nieuwsbericht
                 </p>
-                <textarea class="boxsizingBorder"></textarea>
+                <textarea class="boxsizingBorder" name="article3"></textarea>
 
                 <!-- party vote question -->
                 <br/>
                 <br/>
                 <br />
                 <h3>Op welke van de volgende partijen zou je stemmen op 15 maart (kan anders zijn dan eerder)?</h3>
-                 <select>
+                 <select name="candidate">
                     <option value="0">Weet ik niet / ik ga niet stemmen</option>
                     <option value="1">50 Plus (Henk Krol)</option>
                     <option value="2">CDA (Sybrand Buma)</option>
@@ -133,9 +133,9 @@
 
             </form>
             </div>
-         
+
          </div>
-        
+
     </div>
 
     </body>
