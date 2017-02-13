@@ -1,5 +1,6 @@
 <?php
-
+include 'rndm.php';
+include 'period.php';
 class weeklyAnswer
 {
   $private userID;
@@ -90,8 +91,8 @@ class weeklyAnswer
       die("Connection failed: " . $conn->connect_error);
     }
 
-    //$userID = "";
-    //$periodID = $_POST[""]
+    $userID = $randomString;
+    $periodID = $period;
     $candidateID = $_POST["candidate"];
     $source1 = $_POST["source1"];
     $article1 = $_POST["article1"];
