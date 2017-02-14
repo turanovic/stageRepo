@@ -1,12 +1,10 @@
-<?php
-//setcookie("visiter", 1, time() + (86400 * 30), "/");
-?>
 <!DOCTYPE HTML>
 <html lang="nl">
     <head>
         <meta charset="utf-8">
         <title>Achtergrond Informatie</title>
         <link rel="icon" href="assets/img/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="resources/css/style.css">
                 <link rel="stylesheet" href="css/Style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
