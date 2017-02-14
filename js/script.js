@@ -123,6 +123,13 @@ $(document).ready(function () {
         $('.cookie-melding').fadeOut();
 
     });
+
+    // BUTTON GA DOOR (naar vragen van achtergrondinformation)
+    $("#welkomsluiten").click(function() {
+
+        $('.welcome').fadeOut();
+
+    });
 });
         
     

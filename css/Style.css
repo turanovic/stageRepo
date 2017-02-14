@@ -84,6 +84,27 @@ button{
     border-top: 2px solid #EEE;
 }
 
+/* WELCOME MELDING */
+.welcome {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 99999;      
+}
+
+.welcome-inhoud {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#welkomfoto {
+    margin-top: 20px;
+    width: 50%;
+}
+
 
 
 /* OLD CSS CODE
