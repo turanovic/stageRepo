@@ -18,7 +18,8 @@ create table weeklyAnswer
 
 create table userBackground
 (
-		userID				int not null,
+		userID				int not null auto_increment,
+		userHash 			varchar(50),
     birthdate			date not null,
     gender				varchar(2) not null,	 --M/F
 		household			int not null,		       --1 t/m 5
@@ -127,3 +128,6 @@ references candidate (candidateID)
 alter table userChannel
 add foreign key (channelID)
 references socialMediaChannel(channelID)
+
+alter table userBackground
+add userHash varchar(50)
