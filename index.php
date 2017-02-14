@@ -20,6 +20,8 @@
     <body>
         <?php
             include('./include/banner.inc.php');
+            include('./include/cookie-melding.inc.php');
+            include('./include/welcome.inc.php');
         ?>
 
         

@@ -40,6 +40,8 @@ function submitForm() {
 
 $(document).ready(function () {
 
+    $('#form').hide();
+
 
     ///////////////////////////
     // NEWS CHANNELS CHECKBOXES
@@ -76,7 +78,7 @@ $(document).ready(function () {
         //////////////////////
         var monthselect = $("#month_select").val();
         var dayselect = $("#day_select").val();
-        if ( ( ( monthselect == 4 || monthselect == 6 || monthselect == 9 || monthselect == 11) && dayselect == '31' ) || ( monthselect == 2 && dayselect >= 29 )) {
+        if (((monthselect == 4 || monthselect == 6 || monthselect == 9 || monthselect == 11) && dayselect == '31') || (monthselect == 2 && dayselect >= 29)) {
             alert("U heeft een ongeldige datum ingevoerd. Verander a.u.b. uw geboortedatum.");
             return false;
         }
@@ -91,7 +93,7 @@ $(document).ready(function () {
             return false;
 
         }
-        
+
 
         // everything ok
         return true;
@@ -99,9 +101,9 @@ $(document).ready(function () {
 
 
     // SUBMIT BUTTON CLICK (WEEKLY QUESTIONS)
-     $("#submit_questionlist").click(function () {
+    $("#submit_questionlist").click(function () {
 
-        if (!$('input[name=source1]:checked').val() ) { 
+        if (!$('input[name=source1]:checked').val()) {
             alert("Selecteer a.u.b. een nieuwsbron bij artikel 1.");
             return false;
         }
@@ -112,7 +114,23 @@ $(document).ready(function () {
         }
 
 
-         return true;
+        return true;
+
+    });
+
+
+    // BUTTON CLOSE COOKIE INFO
+    $("#cookiesluiten").click(function () {
+
+        $('.cookie-melding').fadeOut();
+
+    });
+
+    // BUTTON GA DOOR (naar vragen van achtergrondinformation)
+    $("#welkomsluiten").click(function () {
+
+        $('.welcome').fadeOut();
+        $('#form').fadeIn();
 
     });
 });
