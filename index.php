@@ -81,7 +81,7 @@
                     <br />
                     <!-- question 2 -->
                     <h3>2. Wat is je geslacht?</h3>
-                    <select name="gender"">
+                    <select name="gender">
                         <option value="V">Vrouw</option>
                         <option value="M">Man</option>
                     </select>
