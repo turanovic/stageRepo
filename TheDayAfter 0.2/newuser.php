@@ -139,31 +139,6 @@
   <input type="radio" name="weetniet" value="candidateID" />
   <img src="partijLogo/partijloos.png">
 </label>
-    
-    
-           <form>
-    <div>
-        <input checked="checked"  id="a1" type="radio" name="a" value="visa" />
-        <label for="a1">Visa</label><br/>
-        <input id="a2" type="radio" name="a" value="mastercard" />
-        <label for="a2">Mastercard</label>
-    </div>
-    <p>Now, with CSS3: </p>
-    <div class="cc-selector">
-        <input checked="checked" id="visa" type="radio" name="credit-card" value="visa" />
-        <label class="drinkcard-cc visa" for="visa"></label>
-        <input id="mastercard" type="radio" name="credit-card" value="mastercard" />
-        <label class="drinkcard-cc mastercard"for="mastercard"></label>
-    </div>
-    <p>A simple mod:</p>
-    <div class="cc-selector-2">
-        <input id="visa2" type="radio" name="creditcard" value="visa" />
-        <label class="drinkcard-cc visa" for="visa2"></label>
-        <input  checked="checked" id="mastercard2" type="radio" name="creditcard" value="mastercard" />
-        <label class="drinkcard-cc mastercard"for="mastercard2"></label>
-    </div>
-    
-</form>
 
             <!-- Vraag 8 -->        
            <h3>8. Op welke social media kanalen, magazines en tv programma's volg je het nieuws (over de verkiezingen)?</h3>
