@@ -10,13 +10,36 @@ session_destroy();
         <title>TheFinalDay - Intro</title>
         <link rel="icon" href="assets/img/favicon.png">
         <link rel="stylesheet" href="resources/css/style.css">
+
+        <!-- Boostrap css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Latest compiled and minified vanilla Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
     </head>
     <body>
-        <h1>Thanks</h1>
-        <form method="post" name="end" action="resources/php/form_validate.php">
-            <input type="hidden" name="stage" value="4">
-            <input type="submit" value="Opnieuw">    
-        </form>
+
+        <div class="container-fluid">
+             <div class="row">
+         
+                <div class="col-lg-6 col-md-10 col-sm-12 mainForm">
+
+                    <h2>Enquête verzonden</h2>
+                    <p>
+                        Bedankt voor het invullen van de enquête. Tot volgende week!
+                    </p>
+
+                </div>
+         
+             </div>
+        
+        </div>
+
+
     </body>
 </html>
 <script src="assets/jquery/jquery-3.1.1.slim.min.js"></script>

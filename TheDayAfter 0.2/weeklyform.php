@@ -1,9 +1,11 @@
 <?php
+    
 session_start();
 if(!isset($_SESSION["id"])) {
     header("location:index.php");
 }
-echo $_SESSION["id"];
+echo $_SESSION["id"]; 
+
 //setcookie("visiter", 2, time() + (86400 * 30), "/"); 
 ?>
 <!DOCTYPE HTML>
@@ -21,6 +23,7 @@ echo $_SESSION["id"];
             <!-- Vraag 1 -->
             <h3>Op welke partij zou jij stemmen?</h3>
             <select name="party">
+                    <option value="0">Weet ik niet / Ik ga niet stemmen</option>
                     <option value="1" selected>50 Plus (Henk Krol)</option>
                     <option value="2">CDA (Sybrand Buma)</option>
                     <option value="3">D66 (Alexander Pechtold)</option>
@@ -29,12 +32,12 @@ echo $_SESSION["id"];
                     <option value="6">PVV (Geert Wilders)</option>
                     <option value="7">VVD (Mark Rutte)</option>
                     <option value="8">SP (Emiel Roemer)</option>
-                    <option value="9">Weet ik niet / Ik ga niet stemmen</option>
+                    
             </select>
             
             <!-- Vraag 2 -->
             <h3>Artikel 1</h3>
-            <input type="radio" name="article_1" value="1" checked>
+            <input type="radio" name="article_1" value="1">
             <label>TV Kanaal</label><br>
             
             <input type="radio" name="article_1" value="2">
@@ -57,7 +60,7 @@ echo $_SESSION["id"];
             
             <!-- Vraag 3 -->
             <h3>Artikel 2</h3>
-            <input type="radio" name="article_2" value="1" checked>
+            <input type="radio" name="article_2" value="1">
             <label>TV Kanaal</label><br>
             
             <input type="radio" name="article_2" value="2">
@@ -80,7 +83,7 @@ echo $_SESSION["id"];
             
             <!-- Vraag 4 -->
             <h3>Artikel 3</h3>
-            <input type="radio" name="article_3" value="1" checked>
+            <input type="radio" name="article_3" value="1">
             <label>TV Kanaal</label><br>
             
             <input type="radio" name="article_3" value="2">
