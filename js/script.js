@@ -40,6 +40,8 @@ function submitForm() {
 
 $(document).ready(function () {
 
+    $('#form').hide();
+
 
     ///////////////////////////
     // NEWS CHANNELS CHECKBOXES
@@ -118,16 +120,17 @@ $(document).ready(function () {
 
 
     // BUTTON CLOSE COOKIE INFO
-    $("#cookiesluiten").click(function() {
+    $("#cookiesluiten").click(function () {
 
         $('.cookie-melding').fadeOut();
 
     });
 
     // BUTTON GA DOOR (naar vragen van achtergrondinformation)
-    $("#welkomsluiten").click(function() {
+    $("#welkomsluiten").click(function () {
 
         $('.welcome').fadeOut();
+        $('#form').fadeIn();
 
     });
 });
