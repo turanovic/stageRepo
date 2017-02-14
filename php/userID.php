@@ -1,23 +1,36 @@
 <?php
 
+include 'rndm.php';
+
 class userID
 {
-  private $UserID;
-
-  public function setID($UserID)
+  public function checkID()
   {
-    $this->UserID = $UserID;
-  }
+    //connection
+    $servername = 'localhost';
+    $username = 'root';
+    $password = '';
+    $dbname = 'TheDayAfter';
 
-  public function getID()
-  {
-    return $this->UserID;
-  }
+    $conn = new mysqli($servername, $username, $password, $dbname);
 
-  public function generateID()
-  {
-    $UserID = uniqid(rand(100000,999999), true);
-    echo $UserID;
+    generateRandomID();
+
+    $clientID = $randomID;
+    $clientID = mysql_real_escape_string($clientID);
+
+    $sql = "SELECT * FROM userBackground WHERE userID ='".$clientID."'";
+
+    if($sql == $clientID)
+    {
+      echo '<script language="javascript">';
+      echo 'alert("Er is iets misgegaan, probeer het opnieuw")';
+      echo '</script>';
+    }
+    else
+    {
+      header('location: questionlist.php');
+    }
   }
 }
 
