@@ -6,7 +6,7 @@ create table weeklyAnswer
 		userID			int not null,
 		periodID		int not null,
 		candidateID	int not null,
-		date 				datetime not null default current_timestamp,
+		answerDate 	timestamp not null default current_timestamp,
 	  source1			varchar(30) not null,
 	  article1		text(10000) not null,
     source2			varchar(30),
@@ -21,22 +21,14 @@ create table userBackground
 		userID				int not null auto_increment,
 		userHash 			varchar(256),
     birthdate			date not null,
-    gender				varchar(2) not null,	 --M/F
-		household			int not null,		       --1 t/m 5
-    educationID		int not null,					 --Hoogste opleiding
-    workID				int not null,			  	 --Werksituatie
-    incomeID			int not null,          --Inkomen
-    candidateID		int not null,	         --Kandidaat/partij
-    channelID			int not null,          --Social media
+    gender				varchar(2) not null,
+		household			int not null,
+    educationID		int not null,
+    workID				int not null,
+    incomeID			int not null,
+    candidateID		int not null,
+    channelID			int not null,
     primary key (userID)
-);
-
-create table period
-(
-	periodID		int,
-	startDate		datetime,
-	endDate			datetime,
-	primary key(periodID)
 );
 
 create table education
@@ -65,7 +57,7 @@ create table candidate
 	candidateID		int,
 	party					varchar(50),
 	name					varchar(50),
-	primay key (candidateID)
+	primary key (candidateID)
 );
 
 create table socialMediaChannel
@@ -82,14 +74,6 @@ create table userChannel
 	channelID				int,
 	description			varchar(25),
 	primary key (userchannelID)
-);
-
---Losse tabel
-create table email
-(
-	hashedID		int,
-	email				varchar(25),
-	primary key(hashedID)
 );
 
 --relaties leggen
@@ -111,15 +95,11 @@ references candidate(candidateID)
 
 alter table userBackground
 add foreign key (channelID)
-references socialMediaChannel(userchannelID)
+references userChannel(userchannelID)
 
 alter table weeklyAnswer
 add foreign key (userID)
 references userBackground(userID)
-
-alter table weeklyAnswer
-add foreign key (periodID)
-references period(periodID)
 
 alter table weeklyAnswer
 add foreign key (candidateID)
