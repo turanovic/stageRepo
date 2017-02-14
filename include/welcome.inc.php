@@ -11,7 +11,7 @@
         </p> 
             
         <p>
-             <input type="button" value="Ga door" id="welkomsluiten"/>
+             <input type="button" value="Ga door" id="welkomsluiten" class="btn btn-default"/>
         </p>
     </div>
 </div>
