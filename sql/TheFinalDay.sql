@@ -3,8 +3,8 @@ create database TheDayAfterDB;
 create table weeklyAnswer
 (
 		id					int not null auto_increment,
-		userID			int not null,									--Unique?
-		periodID		int not null,									--Unique?
+		userID			int not null,
+		periodID		int not null,
 		candidateID	int not null,
 		date 				datetime not null default current_timestamp,
 	  source1			varchar(30) not null,
@@ -19,7 +19,7 @@ create table weeklyAnswer
 create table userBackground
 (
 		userID				int not null auto_increment,
-		userHash 			varchar(50),
+		userHash 			varchar(256),
     birthdate			date not null,
     gender				varchar(2) not null,	 --M/F
 		household			int not null,		       --1 t/m 5
@@ -128,6 +128,3 @@ references candidate (candidateID)
 alter table userChannel
 add foreign key (channelID)
 references socialMediaChannel(channelID)
-
-alter table userBackground
-add userHash varchar(50)
