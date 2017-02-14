@@ -3,13 +3,13 @@
     <header>
         <title>Achtergrondinformatie</title>
         <?php include('./include/header.inc.php');?>
+        <script src="./js/background.js"></script>
     </header>
     <body>
         <?php
             include('./include/banner.inc.php');
             include('./include/cookie-melding.inc.php');
             include('./include/welcome.inc.php');
-                    
         ?>     
 
      <div class="container-fluid">
