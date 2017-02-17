@@ -69,7 +69,7 @@ create table socialMediaChannel
 
 create table userChannel
 (
-	userchannelID		int,
+	userchannelID		int auto_increment,
 	userID					int,
 	channelID				int,
 	description			varchar(25),
@@ -79,32 +79,32 @@ create table userChannel
 --relaties leggen
 alter table userBackground
 add foreign key (educationID)
-references education(educationID)
+references education(educationID);
 
 alter table userBackground
 add foreign key (workID)
-references worksituation(workID)
+references worksituation(workID);
 
 alter table userBackground
 add foreign key (incomeID)
-references income(incomeID)
+references income(incomeID);
 
 alter table userBackground
 add foreign key (candidateID)
-references candidate(candidateID)
+references candidate(candidateID);
 
 alter table userBackground
 add foreign key (channelID)
-references userChannel(userchannelID)
+references userChannel(userchannelID);
 
 alter table weeklyAnswer
 add foreign key (userID)
-references userBackground(userID)
+references userBackground(userID);
 
 alter table weeklyAnswer
 add foreign key (candidateID)
-references candidate (candidateID)
+references candidate (candidateID);
 
 alter table userChannel
 add foreign key (channelID)
-references socialMediaChannel(channelID)
+references socialMediaChannel(channelID);
